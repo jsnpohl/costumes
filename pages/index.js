@@ -1,18 +1,11 @@
 import React from "react";
-import Head from "next/head";
+import Layout from "../components/Layout";
 
 const HomePage = () => {
   return (
-    <div>
-      <Head>
-        <title>Costumes | Home</title>
-      </Head>
-
-      <main>
-        <h1>Home</h1>
-      </main>
-      <footer></footer>
-    </div>
+    <Layout title="Costumes | Home">
+      <h1>Home</h1>
+    </Layout>
   );
 };
 
